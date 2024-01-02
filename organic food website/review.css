@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, form {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/banner-slide/Banner-1.jpg);
+}
+
+/* Styling for the review container */
+.review-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 70PX;
+    padding: 20px;
+    background-color: slategray;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.review-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.review-container h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Form styles */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for displaying reviews */
+.review {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Styling for star ratings (you can use font icons or images for stars) */
+.star-rating {
+    color: #FFD700; /* Yellow color for stars */
+    font-size: 24px;
+}
+
+/* Link style */
+p a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

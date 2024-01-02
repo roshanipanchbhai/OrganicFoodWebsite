@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/banner-slide/Banner-1.jpg);
+}
+
+/* Define overall styles for the page */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for product list */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style for individual product */
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for the Add to Cart button */
+.product a{
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product a:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    color:#45a049 ;
+    text-decoration: underline;
+}
+h2{
+    padding: 10px 10px 5px 10px;
+    color: black;
+    
+}
+
+/* Style for product prices */
+p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: navy;
+    padding-bottom: 5px;
+}
